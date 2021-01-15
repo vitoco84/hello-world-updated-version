@@ -23,4 +23,22 @@
         </dependency>
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>myMavenRepo</id>
+            <url>https://mymavenrepo.com/repo/XjY9RZ09uj5qnUPAlIiT/</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>myMavenRepo</id>
+            <url>https://mymavenrepo.com/repo/eG4fOYmYh1mZwh6PhNke/</url>
+        </repository>
+        <snapshotRepository>
+            <id>myMavenRepoWrite</id>
+            <url>https://mymavenrepo.com/repo/eG4fOYmYh1mZwh6PhNke/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
